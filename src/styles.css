@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Form-Sec */
+
+.form-sec {
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px #ddd;
+  width: 25%;
+  margin: 50px auto;
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.form-sec .form-title h1 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-sec .form-control {
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+}
+
+.form-sec .form-control input {
+  border: none;
+  border-bottom: 1px solid #777;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+}
+
+.form-sec .submitbtn {
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+}
+
+/* Search-Sec */
+
+.user-data-sec {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.user-data-sec .search-sec {
+  display: flex;
+  justify-content: end;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.user-data-sec .search-sec input {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.user-data-sec .search-sec .search-btn {
+  padding: 8px 20px;
+  border: none;
+  background-color: #8d85e2;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.user-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-data-table tr th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.user-data-table tr td .action-btn {
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.view-btn {
+  background-color: #8d85e2;
+}
+
+.edit-btn {
+  background-color: #92d550;
+}
+
+.remove-btn {
+  background-color: #7fa658;
+}
+.edit-form {
+  margin-bottom: 20px;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.edit-form input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+  .form-sec {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .form-sec {
+    width: 50%;
+  }
+}
